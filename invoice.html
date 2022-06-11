@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <title>Invoice</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="https://juggernott81.github.io/Elements/img/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link href="https://juggernott81.github.io/Elements/css/site.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column h-100 gradient1">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://juggernott81.github.io/index.html">JuggernOtt81</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://juggernott81.github.io/Elements/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://juggernott81.github.io/Elements/contact-form.html">Contact
+                            Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://juggernott81.github.io/Elements/address-book.html">Invoice</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://juggernott81.github.io/Elements/invoice.html">Invoice</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid h-100 minheight gradient1">
+        <div class="container h-100 minheight">
+            <div class="container rounded p-2 border border-1 mt-5" style="background-color:mintcream">
+                <div class="d-flex justify-content-end mt-3 d-print-none">
+                    <button type="button" class="btn btn-dark" onclick="window.print()">
+                        Print
+                    </button>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-sm-7 d-flex justify-content-start">
+                        <img src="/img/IdeaFoundryLogo.png" title="Idea Foundry Logo" alt="Idea Foundry Logo"
+                            width="50%">
+                    </div>
+                    <div class="col-sm-5 d-flex justify-content-md-end justify-content-start">
+                        <strong>Client No:</strong>&nbsp;4908
+                    </div>
+                </div>
+                <hr>
+                <div class="row align-items-center">
+                    <div class="col-sm-6 d-flex justify-content-start">
+                        <strong>Date:</strong>&nbsp;06/11/2022
+                    </div>
+                    <div class="col-sm-6 d-flex justify-content-sm-end justify-content-start">
+                        <strong>Invoice No:</strong>&nbsp;19005
+                    </div>
+                </div>
+                <hr>
+                <div class="row align-items-center">
+                    <div class="col d-flex justify-content-start">
+                        <div>
+                            <strong>Invoice To:</strong>
+                            <br>
+                            <address>
+                                Mark Davis<br>
+                                3333 Al Davis Way <br>
+                                Las Vegas, NV 89118
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-end">
+                        <div>
+                            <strong>Pay To:</strong>
+                            <br>
+                            <address>
+                                JuggernOtt81<br>
+                                830 E Main St<br>
+                                Richmond, IN 47374
+                            </address>
+                        </div>
+                    </div>
+                </div>
+                <div class="row table-responsive p-2">
+                    <table class="table-striped table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th class="text-end">
+                                    Service
+                                </th>
+                                <th class="text-end">
+                                    Description
+                                </th>
+                                <th class="text-end">
+                                    Rate
+                                </th>
+                                <th class="text-end">
+                                    Qty
+                                </th>
+                                <th class="text-end">
+                                    Amount
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Consultation
+                                </td>
+                                <td>
+                                    Needs, purpose, scope
+                                </td>
+                                <td>
+                                    $1500.00
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    $1500.00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Design
+                                </td>
+                                <td>
+                                    Website Design
+                                </td>
+                                <td>
+                                    $60.00
+                                </td>
+                                <td>
+                                    10
+                                </td>
+                                <td>
+                                    $600.00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Deployment
+                                </td>
+                                <td>
+                                    Domain, Deploy, Host
+                                </td>
+                                <td>
+                                    $450.00
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    $450.00
+                                </td>
+                            </tr>
+
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4">
+                                    Sub-Total
+                                </td>
+                                <td>
+                                    $2,550.00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    Tax
+                                </td>
+                                <td>
+                                    $0.00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    Total
+                                </td>
+                                <td>
+                                    $2,550.00
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <footer>
+                    <div class=" row">
+                        <div class="col-12">
+                            <p style="font-size:xx-small">
+                                <strong>NOTE:</strong>&nbsp;This is a computer generated document and does not require a
+                                signature.
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+        <footer class="footer mt-auto py-3 bg-dark sticky-footer">
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-3">
+                        <span class="text-white" style="font-size:xx-small">
+                            <a href="#">image: null</a>
+                        </span>
+                    </div>
+                    <div class="col-6">
+                        <span class="text-white" style="font-size:xx-small">
+                            INVOICE
+                        </span>
+                    </div>
+                    <div class="col-3">
+                        <span class="text-white" style="font-size:xx-small">
+                            <a href="https://github.com/JuggernOtt81/Elements/blob/main/invoice.html"
+                                target="_blank">view
+                                code</a></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
