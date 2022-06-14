@@ -17,6 +17,11 @@ main>.container-fluid {
     bottom: 0;
     width: 100%;
 }
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
 
 .homeBG {
     width: 100%;
