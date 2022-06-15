@@ -2,55 +2,47 @@ main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
 }
-
-topspace {
+topspace{
     margin-top: 60px;
 }
-
 main>.container-fluid {
     padding-top: 60px;
 }
-
 .sticky-footer {
     position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
-    top: 100%;
 }
-
-
-.homeBG {
+.homeBG{
     width: 100%;
-    background: url(https://juggernott81.github.io/Elements/img/DarkCode1920x1280.jpg);
+    background: url(/img/chess.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
-
 .homeText {
     font-family: modesto-open-shadow, sans-serif;
     font-weight: 400;
+    text-shadow: #131418;
+    outline-color: invert;
     font-style: normal;
-    color: rgb(195, 255, 0);
+    color: rgb(86, 156, 28);
 }
-
 html,
 body {
     position: relative;
     color: #212121;
     height: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     margin-bottom: 60px;
-    
 }
 
 body>main {
     /* margin to account for nav bar */
     margin-top: 20px;
     margin-bottom: 60px;
-    position: static;
 }
 
 .heroText {
@@ -63,7 +55,7 @@ body>main {
 .bgimage {
 
     width: 100%;
-    background: linear-gradient(rgba(230, 7, 7, 0.5), rgba(92, 13, 116, 0.5)), url(https://juggernott81.github.io/Elements/img/DarkCode1920x1280.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/DarkCode1920x1280.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -75,7 +67,7 @@ body>main {
     min-height: 80vh;
 }
 
-.content {
+.content { 
     padding-left: 10px;
     padding-top: 10px;
     min-height: 40vh;
@@ -87,7 +79,7 @@ body>main {
 }
 
 
-.content80 {
+.content80 { 
     padding-left: 10px;
     padding-top: 10px;
     min-height: 80vh;
@@ -96,7 +88,6 @@ body>main {
 
 .content80.bg-alt {
     background: #131418;
-    position: static;
 }
 
 .content.bg-alt.topgutter {
@@ -122,6 +113,7 @@ body>main {
 
 
 .btn.btn-light {
+    min-length: 150px;
     color: #85888b;
 }
 
@@ -131,7 +123,7 @@ body>main {
     padding-top: 30px;
     font-weight: 600;
     font-style: normal;
-    font-size: larger;
+    font-size:larger;
     color: rgb(255, 174, 0);
 }
 
@@ -168,12 +160,4 @@ body>main {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
-
-
-.gradient2 {
-    background: #2980B9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
-    position: static;
 }
