@@ -16,7 +16,7 @@ main>.container-fluid {
 }
 .homeBG{
     width: 100%;
-    background: url(https://juggernott81.github.io/Elements/img/chess.jpg);
+    background: url(https://juggernott81.github.io/Elements/img/DarkCode1920x1280.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -55,7 +55,7 @@ body>main {
 .bgimage {
 
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/DarkCode1920x1280.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://juggernott81.github.io/Elements/img/DarkCode1920x1280.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
